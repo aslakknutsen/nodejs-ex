@@ -53,7 +53,7 @@ var initDb = function(callback) {
 };
 
 app.get('/', function (req, res) {
-	console.log("meadl");
+	console.log("mmmmmmnnn");
   if (db) {
     var col = db.collection('counts');
     // Create a document with request IP and current time of request

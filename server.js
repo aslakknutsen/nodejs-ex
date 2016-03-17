@@ -6,7 +6,7 @@ var eps     = require('ejs');
 
 app.engine('html', require('ejs').renderFile);
 
-console.log("Node mode :"+ process.env.NODE_ENV);
+console.log("Node mode is :"+ process.env.NODE_ENV);
 
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
 var ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
@@ -53,7 +53,7 @@ var initDb = function(callback) {
 };
 
 app.get('/', function (req, res) {
-	console.log("meh");
+	console.log("meadl");
   if (db) {
     var col = db.collection('counts');
     // Create a document with request IP and current time of request

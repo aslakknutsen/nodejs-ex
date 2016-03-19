@@ -24,7 +24,7 @@ Now let's pull in the app source code from [GitHub repo](https://github.com/open
 #### create ####
 
         $ oc new-app https://github.com/openshift/nodejs-ex -l name=myapp
-        
+
 That should be it, this form of `new-app` will locate an appropriate image on DockerHub, create an ImageStream for that image, and then create the right build configuration, deployment configuration and service definition.  Next you'll be able to kick off the build, though new-app will kick off a build once all required dependencies are confirmed.  The -l flag will apply a label of "name=myapp" to all the resources created by new-app, for easy management later.
 
 Note, you can follow along with the web console (located at https://ip-address:8443/console) to see what new resources have been created and watch the progress of the build and deployment.
@@ -75,6 +75,5 @@ Review some of the common tips and suggestions [here](https://github.com/openshi
 To run this example from the Web UI, you can same steps following done on the CLI as defined above by [The project](#the-project). Here's a video showing it in motion:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=uocucZqg_0I&t=225" target="_blank">
-<img src="http://img.youtube.com/vi/uocucZqg_0I/0.jpg" 
+<img src="http://img.youtube.com/vi/uocucZqg_0I/0.jpg"
 alt="OpenShift 3: Node.js Sample" width="240" height="180" border="10" /></a>
-

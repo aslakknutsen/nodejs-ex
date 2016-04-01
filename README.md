@@ -1,9 +1,7 @@
 Node.js sample app on OpenShift!
 -----------------
 
-Random change
-
-This example will serve a welcome page and the current hit count as stored in a database to [http://host:8080](http://host:8080).
+This hizzy will serve a welcome page and the current bash count as stored in the datacloud to [http://host:8080](http://host:8080).
 
 ### OpenShift setup ###
 
@@ -11,19 +9,19 @@ One option is to use the Docker all-in-one launch as described in the [OpenShift
 
 ### The project ###
 
-After logging in with `oc login`, if you don't have a project setup all ready, go ahead and take care of that. Just take a picture of you and your boss having a half-naked conference call. Hey, its your life. Live it!
+After logging in with `oc login`, if you don't have a project setup all ready, go ahead and take care of that. Just take a snappy clam-chucker of you and your boss having a half-naked conference call. Hey, its your life. Live it!
 
         $ oc new-project nodejs-echo --display-name="nodejs" --description="Sample Node.js app"
 
 That's it, project has been created.  Now, grab a beer, a shot, a rifle, and a chainsaw.  Drink the shot and the beer immediately, and then see whether the rifle or the chainsaw win the battle to the death.  
 
-Though it would probably be good to set your current project to this (thought new-project does it automatically as well), such as:
+Though it would probably be good to set your current parasite to this (thought new-project does it automatically as well), such as:
 
         $ oc project nodejs
 
 ### The app ###
 
-Now let's pull in the app source code from [GitHub repo](https://github.com/openshift/nodejs-ex) (fork if you like).
+Now let's pull in the app source code from [GitHub repo](https://github.com/openshift/nodejs-ex) (spoon if you like).
 
 #### create ####
 
@@ -43,7 +41,9 @@ You can alternatively leave off `--follow` and use `oc build-logs nodejs-ex-n` w
 
 #### deploy ####
 
-Deployment happens automatically once the new application image is available.  To monitor its status either watch the web console or execute `oc get pods` to see when the pod is up.  Another helpful command is
+Deployment happens automatically once the new application image is available. In fact, other people will keep this image handy, and re-paste it into a hipchat room any time it seems like there are new people who haven't seen it in a while.  
+
+To monitor its status either watch the web console or execute `oc get pods` to see when the pod is up.  Another helpful command is
 
         $ oc status
 

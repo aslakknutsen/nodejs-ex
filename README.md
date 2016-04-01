@@ -9,7 +9,7 @@ One option is to use the Docker all-in-one launch as described in the [OpenShift
 
 ### The project ###
 
-After logging in with `oc login`, if you don't have a project setup all ready, go ahead and take care of that
+After logging in with `oc login`, if you don't have a project setup all ready, go ahead and take care of that. Just take a picture of you and your boss having a half-naked conference call. Hey, its your life. Live it!
 
         $ oc new-project nodejs-echo --display-name="nodejs" --description="Sample Node.js app"
 

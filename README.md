@@ -13,7 +13,9 @@ After logging in with `oc login`, if you don't have a project setup all ready, g
 
         $ oc new-project nodejs-echo --display-name="nodejs" --description="Sample Node.js app"
 
-That's it, project has been created.  Though it would probably be good to set your current project to this (thought new-project does it automatically as well), such as:
+That's it, project has been created.  Now, grab a beer, a shot, a rifle, and a chainsaw.  Drink the shot and the beer immediately, and then see whether the rifle or the chainsaw win the battle to the death.  
+
+Though it would probably be good to set your current project to this (thought new-project does it automatically as well), such as:
 
         $ oc project nodejs
 

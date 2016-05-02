@@ -1,4 +1,4 @@
-Node.js sample app on OpenShift!
+Node.js sample app on OpenShift! Squash the shit outa me!
 -----------------
 
 This hizzy will serve a welcome page and the current bash count as stored in the datacloud to [http://host:8080](http://host:8080).
